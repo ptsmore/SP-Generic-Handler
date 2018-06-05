@@ -2,7 +2,7 @@
 
 if error " Access to the path '\\your ip\sharepoint\DEV' is denied. "
 
-Set Web.config in interpub
+Set tag identity in Web.config in interpub
 <pre>
 &lt;identity impersonate="true" userName="your spfarm user" password="..." /&gt;
     &lt;authorization&gt;
